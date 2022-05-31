@@ -6,14 +6,14 @@
 
 @font-face {
 	font-family: Open Sans;
-	src: url("/fonts/OpenSans-Regular.woff") format("woff");	
+	src: url("fonts/OpenSans-Regular.woff") format("woff");	
 	font-weight: 400; 
 	font-style: normal;
 }
 
 @font-face {
 	font-family: Open Sans;
-	src: url("/fonts/OpenSans-Bold.woff") format("woff");	
+	src: url("fonts/OpenSans-Bold.woff") format("woff");	
 	font-weight: 700;
 	font-style: bold;
 }
@@ -23,7 +23,7 @@ body {
 }
 
 .header-banner {
-    background-image: url("/images/banner-bg.jpg");
+    background-image: url("images/banner-bg.jpg");
     background-repeat: no-repeat;
     background-position-x: center;   
     background-size: cover;  
@@ -343,7 +343,7 @@ form {
     border: none;
     background: #b59f5b;
     cursor: pointer;
-    background-image: url("/svg/search.svg");
+    background-image: url("svg/search.svg");
     background-repeat: no-repeat;
     background-size: 18px;
     background-position: center;
@@ -514,23 +514,23 @@ footer {
 }
 
 .social-icon-twitter {
-    background-image: url("/svg/004-twitter.svg");
+    background-image: url("svg/004-twitter.svg");
 }
 
 .social-icon-pinterest {   
-    background-image: url("/svg/001-pinterest.svg");
+    background-image: url("svg/001-pinterest.svg");
 }
 
 .social-icon-facebook {
-    background-image: url("/svg/002-facebook-logo.svg");    
+    background-image: url("svg/002-facebook-logo.svg");    
 }
 
 .social-icon-instagram {
-    background-image: url("/svg/005-instagram.svg");    
+    background-image: url("svg/005-instagram.svg");    
 }
 
 .social-icon-tumblr {    
-    background-image: url("/svg/003-tumblr.svg");
+    background-image: url("svg/003-tumblr.svg");
 }
 
 .footer-copyring {
