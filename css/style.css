@@ -6,14 +6,14 @@
 
 @font-face {
 	font-family: Open Sans;
-	src: url("https://netology-code.github.io/html-2-diploma/sources/fonts/OpenSans-Regular.woff") format("woff");	
+	src: url("/fonts/OpenSans-Regular.woff") format("woff");	
 	font-weight: 400; 
 	font-style: normal;
 }
 
 @font-face {
 	font-family: Open Sans;
-	src: url("https://netology-code.github.io/html-2-diploma/sources/fonts/OpenSans-Bold.woff") format("woff");	
+	src: url("/fonts/OpenSans-Bold.woff") format("woff");	
 	font-weight: 700;
 	font-style: bold;
 }
@@ -23,7 +23,7 @@ body {
 }
 
 .header-banner {
-    background-image: url("https://netology-code.github.io/html-2-diploma/sources/images/banner-bg.jpg");
+    background-image: url("/images/banner-bg.jpg");
     background-repeat: no-repeat;
     background-position-x: center;   
     background-size: cover;  
@@ -343,7 +343,7 @@ form {
     border: none;
     background: #b59f5b;
     cursor: pointer;
-    background-image: url("https://netology-code.github.io/html-2-diploma/sources/images/search.svg");
+    background-image: url("/svg/search.svg");
     background-repeat: no-repeat;
     background-size: 18px;
     background-position: center;
