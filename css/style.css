@@ -442,6 +442,9 @@ h3::after {
     color: #b59f5b;
 }
 
+
+/* Формы */
+
 form {
     position: relative;
     width: 270px;
@@ -540,6 +543,8 @@ form {
     
 }
 
+/* Sidebar */
+
 .sidebar-tags {
     margin-top: 55px;
 }
@@ -634,6 +639,7 @@ form {
     margin: 4px auto;    
     width: 66px;
     height: 3px;
+    background-color: #e1d9bd;
 }
 
 .products {
@@ -794,7 +800,9 @@ form {
 
 footer {
     padding-top: 63px;
-    display: block;   
+    display: block;  
+    max-width: 1200px; 
+    margin: auto;
 }
 
 .social-icons {
@@ -864,4 +872,83 @@ footer {
     font-weight: 700;
     color: #999999;
     text-decoration: none;
+}
+
+/* Popup */
+
+.popup {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 3;
+}
+
+.popup_hidden {
+    /* display: none; */
+}
+
+.popup-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-form-block {
+    background-color: #fff;
+    min-height: 590px;
+    width: 380px;
+}
+
+.popup-title {
+    font-family: Open Sans, Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 2;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    margin-top: 55px;
+    margin-bottom: 25px;
+}
+
+.popup-title::after {
+    display: block;
+    content: "";
+    margin: 4px auto;    
+    width: 66px;
+    height: 3px;
+    background-color: #e1d9bd;
+}
+
+.popup-form-feedback {
+
+}
+
+.popup-select {
+
+}
+
+.popup-label {
+
+}
+
+.popup-text {
+
+}
+
+.pupup-radio {
+
+}
+
+.popup-textarea {
+
+}
+
+.button-shop {
+
 }
