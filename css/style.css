@@ -889,7 +889,7 @@ footer {
 }
 
 .popup_hidden {
-    display: none;  /* скрыть/показать popup */
+    /* display: none;  скрыть/показать popup */
 }
 
 .popup-form {
@@ -938,7 +938,6 @@ footer {
     outline-color: #b59f5b;
     outline-width: 1px;
     /* box-shadow: 0px 1px rgba(181, 159, 91, 1); */
-
 }
 
 .popup-select {
