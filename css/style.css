@@ -1108,6 +1108,17 @@ footer {
 /* Tablet <641-1199px */
 
 @media (min-width:641px) and (max-width:1199px) {
+
+    /* Логотип */
+
+    .header-logo {
+        margin-top: 20px;
+        margin-left: 19px;
+    }
+    
+    .logo img {
+        width: 10rem;
+    }
     
     /* Бургер-меню */
 
@@ -1123,15 +1134,15 @@ footer {
         color: inherit;
         background-color: transparent;
 
-        margin-right: 35px;
-        margin-top: 35px;
+        margin-right: 19px;
+        margin-top: 18px;
 
         background-image: url("../images/Btn-Close.png");
         background-repeat: no-repeat;
         background-position-x: center;   
         background-size: cover;  
-        width: 30px;
-        height: 30px;   
+        width: 22px;
+        height: 22px;   
     }
 
     .menu-button-label {
@@ -1142,9 +1153,23 @@ footer {
 
     .header-banner {
     background-image: url("../images/banner-bg-tablet.jpg");
+    max-height: 395px;
+    margin-bottom: -20px;
+    }
+
+    .header-banner h1 {
+        font-size: 2.5rem;
+        max-width: 650px;
+        margin-top: -20px;
+        line-height: 1.5;
     }
 
     /* Тренды */
+
+    .trends-list-title {
+        font-size: 1.1rem;
+        margin-bottom: 20px;
+    }
 
     .trends-list {
     display: flex;
@@ -1154,10 +1179,43 @@ footer {
     .trends-list-item {
         width: 45%;
         margin-bottom: 5px;
+        min-height: 245px;
     }
 
     .trends-list-item:nth-child(2n+2) {
         margin-right: 0px;
+    }
+
+    .trends-item {
+        margin-right: 20px;
+        margin-left: 20px;
+        margin-bottom: 15px;        
+    }
+
+    .trends-tags {
+        font-size: 0.9rem; 
+        padding-left: 10px; 
+        margin-top: 10px;
+        margin-bottom: -10px;
+        /* padding-top: 30px; */
+    }
+    
+    .trends-tag {
+        /* margin-right: 20px;
+        font-weight: bold;
+        color: #b59f5b;
+        text-decoration: none;
+        text-transform: uppercase; */
+    }
+    
+    .trends-tag:hover {
+        /* text-decoration: underline;
+        text-align: center; */
+    } 
+    
+    .trends-titles h2 {
+        font-size: 1.1rem;
+        padding-bottom: 10px;
     }
 
     /* Статьи */
@@ -1168,8 +1226,9 @@ footer {
     }
 
     .list {
-        margin-right: 35px;
-        margin-left: 35px;
+        margin-left: 45px;
+        margin-top: -20px;
+        margin-right: 0px;
     }
 
     .post-tags-list {
@@ -1177,13 +1236,17 @@ footer {
     }
 
     .item-picture img {
-        margin-right: 0px;
+        /* margin-right: 0px; */
+        width: 100%;
+        max-width: 24.5rem;
     }
 
     /* Sidebar */
 
     .sidebar {
         margin-right: 30px;
+        margin-left: -35px;
+        margin-top: -20px;
     }    
 
     /* Наши изделия */
