@@ -1231,6 +1231,16 @@ footer {
         margin-right: 0px;
     }
 
+    .item-post {
+        margin-left: -12px;
+        margin-top: -8px;
+        margin-bottom: 0px;
+    }
+
+    .post-title {
+        font-size: 1.05rem;
+    }
+
     .post-tags-list {
         padding-top: 15px;
     }
@@ -1241,6 +1251,11 @@ footer {
         max-width: 24.5rem;
     }
 
+    .post-content {
+        margin-top: -18px;
+        font-size: 0.90em;
+    }
+
     /* Sidebar */
 
     .sidebar {
@@ -1249,11 +1264,38 @@ footer {
         margin-top: -20px;
     }    
 
+    /* Форма поиска */
+
+    .form-connection {
+        margin-top: 67px;
+    }
+
+    .form-search button {
+        margin-right: 5px;
+    }
+
+    /* Рассылка */
+
+    .form-connection {
+        margin-top: 65px;
+        margin-right: 5px;
+    }
+
+    .form-connection h3 {
+        margin-top: -7px;
+        margin-left: -10px;
+    }
+
     /* Наши изделия */
+
+    .products {
+        margin-bottom: -65px;
+    }
 
     .products-list {
         display: flex;
         flex-wrap: wrap;
+        margin-left: 20px;
     }
 
     .products-list-item {
@@ -1265,6 +1307,31 @@ footer {
     .products-list-item:nth-child(1n+1) {
         margin-right: 10px;
 }
+
+    .products-list-title {
+        font-size: 1.1rem;
+        margin-bottom: 30px;
+    }
+
+    .products-item {
+        margin-top: -40px;
+    }
+
+    .products-title {
+        font-size: 1.1rem;
+        margin-left: -4px;
+    }
+
+    /* Footer */
+
+    .social-icons {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .footer-copyring {
+        margin-top: -25px;
+    }
 
 }
 
