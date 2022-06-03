@@ -99,9 +99,12 @@ body {
 
 /* Меню */
 
-/* .mobile-menu {
-    display: none;
-} */
+.mobile-menu {
+    /* display: none; */
+    width: 0px;
+    opacity: 0;
+    
+}
 
 .header-menu {
     display: flex;
