@@ -88,6 +88,8 @@ body {
     align-items: center;
 }
 
+/* Логотип */
+
 .header-logo {
     margin-top: 3px;
     margin-left: 3px;
@@ -97,13 +99,15 @@ body {
     width: 11rem;
 }
 
+/* .mobile-logo {
+    width: 0px;
+    opacity: 0;
+} */
+
 /* Меню */
 
 .mobile-menu {
-    /* display: none; */
-    width: 0px;
-    opacity: 0;
-    
+    display: none;
 }
 
 .header-menu {
@@ -310,13 +314,14 @@ body {
 }
 
 .item-picture img{
-    min-width: 23rem;
+    max-width: 23rem;
     margin-right: 30px;
     object-fit: cover;
+    width: 100%;
 }
 
 .item-post {
-    width: 23rem;
+    max-width: 23rem;
     margin-top: -5px;    
 }
 
@@ -385,7 +390,7 @@ body {
 }
 
 .right-sidebar {
-    min-width: 16.87rem;
+    max-width: 16.87rem;
     display: flex;    
 }
 
@@ -1107,6 +1112,7 @@ footer {
     }
 
     .mobile-menu {
+        display: flex;
         padding: 0;
         border: none;
         font: inherit;
@@ -1127,6 +1133,8 @@ footer {
     .menu-button-label {
         visibility: hidden;
     }
+
+    /* Баннер */
 
     .header-banner {
     background-image: url("../images/banner-bg-tablet.jpg");
@@ -1197,6 +1205,22 @@ footer {
 /* Mobile 640< */
 
 @media (max-width:640px) {
+
+
+    /* Логотип */
+
+    .top-list {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .header-logo {
+        margin-top: 50px;
+    }
+
+    .logo img {
+        width: 100%;
+    }
     
      /* Бургер-меню */
 
@@ -1206,25 +1230,30 @@ footer {
 
     .mobile-menu {
         padding: 0;
+        display: flex;
         border: none;
         font: inherit;
         color: inherit;
         background-color: transparent;
 
-        margin-right: 35px;
-        margin-top: 35px;
+        margin-right: 5px;
+        margin-top: 5px;
 
         background-image: url("../images/Btn-Close.png");
         background-repeat: no-repeat;
         background-position-x: center;   
         background-size: cover;  
         width: 30px;
-        height: 30px;   
+        height: 30px; 
+        
+        align-self: end;
     }
 
     .menu-button-label {
         visibility: hidden;
     }
+
+    /* Баннер */
 
     .header-banner {
     background-image: url("../images/banner-mobile.jpg");
@@ -1238,15 +1267,21 @@ footer {
     }
 
     .trends-list-item {
-        width: 45%;
+        width: 100%;
         margin-bottom: 5px;
+        margin-right: 0px;
     }
 
-    .trends-list-item:nth-child(2n+2) {
+    .trends-list-item:nth-child(n+1) {
         margin-right: 0px;
     }
 
     /* Статьи */
+
+    .main {
+        display: block;
+        flex-direction: column;
+    }
 
     .list-item {
         display: flex;
@@ -1270,17 +1305,23 @@ footer {
 
     .sidebar {
         margin-right: 30px;
+        margin-left: 30px;
     }    
 
     /* Наши изделия */
 
+    .products {
+        margin-right: 30px;
+    }
+
     .products-list {
         display: flex;
         flex-wrap: wrap;
+        
     }
 
     .products-list-item {
-        width: 45%;
+        width: 100%;
         flex: 0 0 auto;
         margin-bottom: 30px;
     }
