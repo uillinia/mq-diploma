@@ -4,6 +4,9 @@
     box-sizing: border-box;
 }
 
+
+/* Шрифты */
+
 @font-face {
 	font-family: Open Sans;
 	src: url("../fonts/OpenSans-Regular.woff") format("woff");	
@@ -20,6 +23,14 @@
 
 body {
     font-family: Open Sans, Arial, Helvetica, sans-serif;
+    /* max-width: 75rem; */
+}
+
+
+/* Шапка сайта*/
+
+.header-main {
+    /* width: 100%; */
 }
 
 .header-banner {
@@ -48,10 +59,11 @@ body {
     padding-top: 75px;
     padding-bottom: 127px;
     margin: 0 auto;
-    width: 690px;
+    max-width: 43rem;
+    width: 100%;
     font-style: bold;
     font-weight: 700;
-    font-size: 45px;
+    font-size: 2.8rem;
     line-height: 1.65;
     text-align: center;
     text-transform: uppercase;    
@@ -63,7 +75,7 @@ body {
 .header-top {   
     position: relative;
     width: 100%;
-    max-width: 1200px;
+    max-width: 75rem;
     margin: 0 auto;
     padding: 0 15px;
     z-index: 3;
@@ -82,7 +94,7 @@ body {
 }
 
 .logo img {
-    width: 179px;
+    width: 11rem;
 }
 
 .header-menu {
@@ -108,11 +120,15 @@ body {
     text-align: center;
 }
 
+
+/* Страница */
+
 .page {
     /* display: flex;
     justify-content: space-between; */
     margin-top: 65px;
     width: 100%; 
+
 }
 
 .page-main {
@@ -124,6 +140,8 @@ body {
 .main {
     display: flex;
     justify-content:center;
+    max-width: 75rem;
+    margin: auto;
 }
 
 /* Тренды */
@@ -144,7 +162,7 @@ body {
     display: block;
     content: "";
     margin: 13px auto;    
-    width: 66px;
+    max-width: 4rem;
     height: 3px;
     background-color: #e1d9bd;
 }
@@ -229,7 +247,7 @@ body {
 
 .trends-tags {
     display: flex;
-    font-size: 14px;
+    font-size: 0.8rem;
     list-style-type: none;
     text-transform: uppercase;   
 }
@@ -250,7 +268,7 @@ body {
 .trends-titles h2 {
     font-family: Open Sans, Arial, Helvetica, sans-serif;
     margin-top: 15px;
-    font-size: 20px;
+    font-size: 1.25rem;
     line-height: 1.2;
 }
 
@@ -283,19 +301,19 @@ body {
 }
 
 .item-picture img{
-    width: 380px;
+    min-width: 23rem;
     margin-right: 30px;
     object-fit: cover;
 }
 
 .item-post {
-    width: 370px;
+    width: 23rem;
     margin-top: -5px;    
 }
 
 .post-tags {
     display: flex;
-    font-size: 14px;
+    font-size: 0.8rem;
     list-style-type: none;
     text-transform: uppercase;    
 }
@@ -316,7 +334,7 @@ body {
 .post-titles h2 {
     font-family: Open Sans, Arial, Helvetica, sans-serif;
     margin-top: 7px;
-    font-size: 20px;
+    font-size: 1.25rem;
     line-height: 1.2;
 }
 
@@ -334,7 +352,7 @@ body {
 .post-info-about{
     margin: 30px 0px 45px 0px;
     display: flex;
-    font-size: 12px;
+    font-size: 0.75rem;
 } 
 
 .post-date {
@@ -348,7 +366,7 @@ body {
 }
 
 .post-content {    
-    font-size: 15px;
+    font-size: 0.83rem;
     line-height: 1.5;
     font-weight: 400;
 }
@@ -358,9 +376,11 @@ body {
 }
 
 .right-sidebar {
-    width: 270px;
+    min-width: 16.87rem;
     display: flex;    
 }
+
+/* Sidebar */
 
 .sidebar {
     /* display: block; */
@@ -373,7 +393,7 @@ body {
 h3 {
     font-family: Open Sans, Arial, Helvetica, sans-serif;
     margin-top: -10px;
-    font-size: 14px;
+    font-size: 0.87rem;
     line-height: 2;
     font-weight: 700;
     text-align: center;
@@ -386,7 +406,7 @@ h3::after {
     display: block;
     content: "";
     margin: 4px auto;    
-    width: 66px;
+    max-width: 4.125rem;
     height: 3px;
     background-color: #e1d9bd;
 }
@@ -397,7 +417,7 @@ h3::after {
 }
 
 .new-post-picture img{   
-    width: 70px;
+    min-width: 4,375rem;
     height: 70px;
     background: #f4f7f6;        
 }
@@ -408,7 +428,7 @@ h3::after {
 }
 
 .new-post-info {
-    width: 200px;
+    min-width: 12,5rem;
     display: flex;
     flex-direction: column;
     margin-top: -5px;
@@ -416,14 +436,14 @@ h3::after {
 }
 
 .new-post-date {
-    font-size: 12px;
+    font-size: 0.75rem;
     color: #888888;
     margin-bottom: 2px;    
 }
 
 .new-post-info a {
     display: flex;
-    font-size: 14px;
+    font-size: 0.875rem;
     line-height: 1.3;    
     font-weight: bold;
     align-items: flex-start;
@@ -431,7 +451,7 @@ h3::after {
 
 .new-post-title {
     font-weight: bold;
-    font-size: 20px;
+    font-size: 1.25rem;
     line-height: 1.2;
     color: black;
     text-decoration: none;
@@ -447,7 +467,7 @@ h3::after {
 
 .form-connection {
     position: relative;
-    width: 270px;
+    min-width: 16.875rem;
     margin: 0 auto;
 }
 
@@ -503,7 +523,7 @@ h3::after {
 }
 
 .form-group input {
-    font-size: 13px;
+    font-size: 0.812rem;
     line-height: 3;
     font-weight: 400;
     width: 100%;
@@ -566,7 +586,7 @@ h3::after {
     text-align: center;
     text-transform: uppercase;
     padding: 4px 14px;    
-    font-size: 12px;    
+    font-size: 0.75rem;    
     text-decoration: none;   
     font-weight: 700;
     color: #000000;
@@ -637,26 +657,18 @@ h3::after {
     display: block;
     content: "";
     margin: 4px auto;    
-    width: 66px;
+    max-width: 4.125rem;
     height: 3px;
     background-color: #e1d9bd;
 }
 
 .products {
-    /* display: flex;
-    max-width: 1200px;
-    margin: auto; */
-    max-width: 1200px;
+    max-width: 75rem;
     margin: auto;
 
 }
 
 .products-list {
-    /* display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    margin-left: 15px;
-    margin-right: -50px; */
     display: flex;
     
 }
@@ -666,21 +678,11 @@ h3::after {
 }
 
 .products-list-item {
-    /* flex: 1 1 0px;
-    display: flex;
-    flex-wrap: wrap;
-    margin-right: 65px; */
     flex: 1 0 350px;
     margin-left: 15px;
 }
 
 .products-item {
-    /* position: relative;
-    border: 3px solid #b59f5b;  
-    margin-top: -00px;
-    padding-left: 20px;
-    padding-right: 20px;
-    z-index: 2; */
     position: relative;
     z-index: 2;
     border: 3px solid #b59f5b; 
@@ -693,22 +695,19 @@ h3::after {
 }
 
 .products-picture {
-    /* margin: 0 auto;
-    z-index: 0; */
     display: flex;
     justify-content: center;
     z-index: 0;
 }
 
 .products-titles {
-    /* margin-top: 45px; */
     margin-top: 10px;
     padding-bottom: 5px;
 }
 
 .products-title {
     font-weight: bold;
-    font-size: 20px;
+    font-size: 1.25rem;
     color: black;
     text-decoration: none;
     text-transform: uppercase;
@@ -720,9 +719,7 @@ h3::after {
 }
 
 .products-content {
-    /* padding-top: 5px;
-    font-size: 15px; */
-    font-size: 15px;
+    font-size: 0.937rem;
 }
 
 .products-content a {
@@ -738,7 +735,7 @@ h3::after {
 
 .products-info-about {
     text-transform: uppercase;
-    font-size: 18px;
+    font-size: 1.125rem;
 }
 
 .products-price-old {
@@ -749,17 +746,13 @@ h3::after {
 
 .products-price {
     margin-top: -6px;
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 .price {
     position: relative;
     font-weight: bold;
 }
-
-/* .price::after {
-    content: "";
-} */
 
 .button-shop {
     display: flex;
@@ -769,7 +762,7 @@ h3::after {
 .button-shop button {
     top: 135px;
     right: 0;
-    min-width: 140px;
+    min-width: 8.75rem;
     min-height: 48px;
     border: none;
     background: #b59f5b;
@@ -779,7 +772,7 @@ h3::after {
     background-position: center;
     
     font-weight: 700;
-    font-size: 14px;
+    font-size: 0.875rem;
     color: #ffffff;
     text-transform: uppercase;
 }
@@ -801,7 +794,7 @@ h3::after {
 footer {
     padding-top: 63px;
     display: block;  
-    max-width: 1200px; 
+    max-width: 75rem; 
     margin: auto;
 }
 
@@ -868,7 +861,7 @@ footer {
 .footer-copyring a {
     display: flex;    
     font-family: "Open Sans", Arial, Helvetica, sans-serif;    
-    font-size: 12px;    
+    font-size: 0.75rem;    
     font-weight: 700;
     color: #999999;
     text-decoration: none;
@@ -889,7 +882,7 @@ footer {
 }
 
 .popup_hidden {
-    /* display: none;  скрыть/показать popup */
+    display: none;  /*скрыть/показать popup */
 }
 
 .popup-form {
@@ -901,13 +894,14 @@ footer {
 .popup-form-block {
     background-color: #fff;
     min-height: 590px;
-    width: 390px;
+    max-width: 390px;
+    width: 100%;
     position: relative;
 }
 
 .popup-title {
     font-family: Open Sans, Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    font-size: 1.25rem;
     line-height: 2;
     font-weight: 700;
     text-align: center;
@@ -921,7 +915,7 @@ footer {
     display: block;
     content: "";
     margin: 3px auto;    
-    width: 66px;
+    max-width: 4.125rem;
     height: 3px;
     background-color: #e1d9bd;
 }
@@ -929,8 +923,6 @@ footer {
 .popup-form-feedback {
     margin-left: 30px;
     margin-right: 30px;
-  
-
 }
 
 .popup-select:hover {
@@ -949,13 +941,13 @@ footer {
 	
 	padding-left: 17px;
     background-color: #f4f7f6;
-    /* */
+
     border: none;
 
     margin-bottom: 15px;
 
 	font-family: inherit;
-	font-size: 13px;
+	font-size: 0.812rem;
 	color: #333333;
 
     background-image: url("../svg/form-arrows.svg");
@@ -965,14 +957,14 @@ footer {
 }
 
 .popup-label {
-    font-size: 15px;
+    font-size: 0.937rem;
     width: 100%;
 }
 
 .popup-text {
     margin-bottom: 10px;
     margin-top: 15px;
-    font-size: 13px;
+    font-size: 0.812rem;
     margin-right: 10px;
 
 }
@@ -991,7 +983,7 @@ footer {
 
 .radio-group-text {
     margin-right: 10px;
-    font-size: 12px;
+    font-size: 0.75rem;
     
 
 }
@@ -1029,10 +1021,10 @@ footer {
     font-family: Open Sans, Arial, Helvetica, sans-serif;
     min-height: 130px;
     width: 100%;
-    max-width: 330px;
+    max-width: 20,62rem;
     margin-top: -5px;
     font-style: inherit;
-    font-size: 13px;
+    font-size: 0.812rem;
     padding-top: 20px;
     padding-left: 20px;
     resize: none;
@@ -1056,7 +1048,7 @@ footer {
     top: 135px;
     right: 0;
     width: 100%;
-    min-width: 140px;
+    min-width: 8.75rem;
     min-height: 50px;
     border: none;
     background: #b59f5b;
@@ -1082,8 +1074,8 @@ footer {
     position: absolute; 
     top: -40px;
     left: 92%;
-    width: 48px;
-    height: 48px;
+    width: 3rem;
+    height: 3rem;
     border: none;
     /* background: #b59f5b; */
     cursor: pointer;
@@ -1092,4 +1084,105 @@ footer {
     background-size: 18px;
     background-position: center;
 
+}
+
+
+/* Tablet <641-1199px */
+
+@media (min-width:641px) and (max-width:1199px) {
+    
+    /* Бургер-меню */
+
+    .header-menu {
+        display: none;
+    }
+
+    .mobile-menu {
+        background-image: url("../images/Btn-Close.png");
+        /* top: 10px;
+        right: 10px;
+        background-size: 50px;
+        z-index: 10;
+        background-repeat: no-repeat;
+        background-position-x: center;   
+        /* background-size: cover;   */
+        background-color: #000; */
+
+    }
+
+    .menu-button-label {
+        visibility: hidden;
+    }
+
+    .header-banner {
+    background-image: url("../images/banner-bg-tablet.jpg");
+    }
+
+    /* Тренды */
+
+    .trends-list {
+    display: flex;
+    flex-wrap: wrap;
+    }
+
+    .trends-list-item {
+        width: 45%;
+        margin-bottom: 5px;
+    }
+
+    .trends-list-item:nth-child(2n+2) {
+        margin-right: 0px;
+    }
+
+    /* Статьи */
+
+    .list-item {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .list {
+        margin-right: 35px;
+        margin-left: 35px;
+    }
+
+    .post-tags-list {
+        padding-top: 15px;
+    }
+
+    .item-picture img {
+        margin-right: 0px;
+    }
+
+    /* Sidebar */
+
+    .sidebar {
+        margin-right: 30px;
+    }    
+
+    /* Наши изделия */
+
+    .products-list {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .products-list-item {
+        width: 45%;
+        flex: 0 0 auto;
+        margin-bottom: 30px;
+    }
+
+    .products-list-item:nth-child(1n+1) {
+        margin-right: 10px;
+}
+
+
+/* Mobile 640< */
+
+@media (max-width:640px) {
+    
+    .header-menu {
+        display: none;
+    }
 }
