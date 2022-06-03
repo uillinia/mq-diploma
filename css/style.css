@@ -1098,16 +1098,21 @@ footer {
     }
 
     .mobile-menu {
+        padding: 0;
+        border: none;
+        font: inherit;
+        color: inherit;
+        background-color: transparent;
+
+        margin-right: 35px;
+        margin-top: 35px;
+
         background-image: url("../images/Btn-Close.png");
-        /* top: 10px;
-        right: 10px;
-        background-size: 50px;
-        z-index: 10;
         background-repeat: no-repeat;
         background-position-x: center;   
-        /* background-size: cover;   */
-        background-color: #000; */
-
+        background-size: cover;  
+        width: 30px;
+        height: 30px;   
     }
 
     .menu-button-label {
@@ -1175,6 +1180,8 @@ footer {
 
     .products-list-item:nth-child(1n+1) {
         margin-right: 10px;
+}
+
 }
 
 
