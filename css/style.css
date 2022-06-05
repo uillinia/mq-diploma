@@ -1229,7 +1229,7 @@ footer {
     .list {
         margin-left: 45px;
         margin-top: -20px;
-        margin-right: 50px;
+        margin-right: 35px;
     }
 
     .item-post {
@@ -1261,7 +1261,7 @@ footer {
 
     .sidebar {
         margin-right: 30px;
-        margin-left: -35px;
+        /* margin-left: -35px; */
         margin-top: -20px;
     }    
 
