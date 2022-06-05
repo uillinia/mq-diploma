@@ -301,6 +301,7 @@ body {
 
 .list {
     margin-right: 120px;
+    /* max-width: 750px; */
 }
 
 .list-item {   
@@ -900,7 +901,7 @@ footer {
 }
 
 .popup_hidden {
-    display: none;  /*скрыть/показать popup */
+    display: none;  /* скрыть/показать popup */
 }
 
 .popup-form {
@@ -1614,6 +1615,64 @@ footer {
 footer address {
     margin-top: -48px;
     margin-bottom: -20px;
+}
+
+.popup-form-block {
+    margin-left: 14px;
+    margin-right: 20px;
+    min-height: 545px;
+    margin-top: 25px;
+}
+.popup-title {
+    font-size: 1rem;
+    margin-top: 20px;
+}
+
+.popup-form-feedback {
+    margin-left: 25px;
+}
+
+.popup-radio-group {
+    margin-top: 5px;
+    margin-bottom: 25px;
+}
+
+.radio-group-text {
+    margin-right: 30px;
+}
+
+.radio-group-text::before {
+    content: "";
+	display: inline-block;
+	
+	width: 25px;
+	height: 25px;
+
+	background-image: url("../svg/form-empty-circle.svg");
+	background-repeat: no-repeat;
+	background-position: center  center;
+	background-size: 25px;
+
+    display: inline-block;
+    vertical-align: middle;
+
+    padding-right: 5px;    
+}
+
+.popup-close {
+    position: absolute; 
+    top: -35px;
+    left: 92%;
+    width: 27px;
+    height: 27px;
+    border: none;
+    /* background: #b59f5b; */
+    cursor: pointer;
+    background-image: url("../svg/form-x.svg");
+    background-repeat: no-repeat;
+    background-size: 27px;
+    background-position: center;
+
 }
 
 }
