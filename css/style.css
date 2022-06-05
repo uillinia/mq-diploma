@@ -1468,7 +1468,7 @@ footer {
     }
 
     .trends-list-item:nth-child(n+1) {
-        margin-right: 0px;
+        /* margin-right: 0px; */
     }
 
     .trends-item {
@@ -1722,7 +1722,7 @@ footer address {
     }
 
     .trends-list-item:nth-child(2n) {
-        margin-right: 0px;
+        /* margin-right: 0px; */
     }
 
     .trends-list-item:last-child {
