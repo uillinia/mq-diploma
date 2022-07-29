@@ -233,6 +233,8 @@ body {
 }
 
 .trends-item {
+    width: 100%;
+    
     border: 3px solid #b59f5b;
     z-index: 2;
 
