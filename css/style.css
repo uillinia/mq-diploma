@@ -1562,6 +1562,10 @@ footer {
         max-height: 240px;
     }
 
+    .trends-list-item:nth-child(1n+1) {
+        margin-right: 0px;
+    }
+
     .trends-list-item:nth-child(n+1) {
 
     }
