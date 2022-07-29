@@ -1447,9 +1447,9 @@ footer {
         /* margin: 10px; */
     }
 
-    .trends-list-item:nth-child(1n+1) {
+    /* .trends-list-item:nth-child(1n+1) {
         margin-right: 0px;
-    }
+    } */
 
     .trends-list-item:last-child {
         margin-right: 0px;
