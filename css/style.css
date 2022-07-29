@@ -234,7 +234,7 @@ body {
 
 .trends-item {
     width: 100%;
-    
+
     border: 3px solid #b59f5b;
     z-index: 2;
 
@@ -1444,7 +1444,7 @@ footer {
     }
 
     .trends-list-item:nth-child(1n+1) {
-        margin-right: 5px;
+        margin-right: 0px;
     }
 
     .trends-list-item:last-child {
