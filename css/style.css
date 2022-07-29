@@ -257,6 +257,10 @@ body {
     
 }
 
+.trends-list-item:last-child {
+	margin-right: 0px;
+}
+
 .trends-tags {
     display: flex;
     font-size: 0.8rem;
