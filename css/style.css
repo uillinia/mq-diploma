@@ -23,14 +23,13 @@
 
 body {
     font-family: Open Sans, Arial, Helvetica, sans-serif;
-    /* max-width: 75rem; */ 
 }
 
 
 /* Шапка сайта*/
 
 .header-main {
-    /* width: 100%; */
+
 }
 
 .header-banner {
@@ -39,7 +38,7 @@ body {
     background-position-x: center;   
     background-size: cover;  
     background-color: #000;
-    position: relative;   
+    position: relative; 
 }
 
 .header-banner::before {
@@ -68,8 +67,7 @@ body {
     text-align: center;
     text-transform: uppercase;    
     color: #fff;
-    z-index: 2;
-    
+    z-index: 2;  
 }
 
 .header-top {   
@@ -98,11 +96,6 @@ body {
 .logo img {
     width: 176px;
 }
-
-/* .mobile-logo {
-    width: 0px;
-    opacity: 0;
-} */
 
 /* Меню */
 
@@ -137,9 +130,7 @@ body {
 /* Страница */
 
 .page {
-    /* display: flex;
-    justify-content: space-between; */
-    margin-top: 65px;
+    margin-top: 60px;
     width: 100%; 
 
 }
@@ -147,7 +138,6 @@ body {
 .page-main {
     box-sizing: border-box;
     margin: 0 auto;
-    /* padding: 0 16px; */
 }
 
 .main {
@@ -156,14 +146,14 @@ body {
     max-width: 1200px;
     margin: auto;
     padding-left: 10px;
-    padding-right: 10px;
+    padding-right: 20px;
 }
 
 /* Тренды */
 
 .trends-list-title {
     font-family: Open Sans, Arial, Helvetica, sans-serif;
-    margin-top: -5px;
+    /* margin-top: -5px; */
     font-size: 20px;
     line-height: 1;
     font-weight: 700;
@@ -171,7 +161,6 @@ body {
     text-transform: uppercase;
     position: relative;
     margin-bottom: 25px;
-    /* display: flex; */
 }
 
 .trends-list-title::after {
@@ -184,16 +173,12 @@ body {
 }
 
 .trends {
-    /* display: flex;
-    align-items: flex-end; */
-    /* margin-top: 60px; */
-    
+
 }
 
 .trends-list {
     display: flex;
     flex-wrap: nowrap;
-    /* align-items: flex-end;   */
     width: 100%;
     margin-bottom: 65px; 
 }
@@ -248,10 +233,18 @@ body {
 }
 
 .trends-item {
-    margin: 35px;
     border: 3px solid #b59f5b;
-    padding: 20px;
     z-index: 2;
+
+    margin-top: 0px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+
+    padding-top: 35px;
+    padding-right: 15px;
+    padding-bottom: 20px;
+    padding-left: 30px;
 }
 
 .trends-list-item:nth-child(1n+1) {
@@ -284,7 +277,8 @@ body {
 
 .trends-titles h3 {
     font-family: Open Sans, Arial, Helvetica, sans-serif;
-    margin-top: 15px;
+    margin-top: 10px;
+	padding-bottom: 10px;
     font-size: 1.25rem;
     line-height: 1.2;
 }
@@ -304,8 +298,7 @@ body {
 /* Статьи */
 
 .list {
-    /* margin-right: 120px; */
-    /* max-width: 750px; */
+
 }
 
 .list-item {   
@@ -322,13 +315,12 @@ body {
     max-width: 384px;
     margin-right: 30px;
     object-fit: cover;
-    /* margin-left: -10px; */
     width: 100%;
 }
 
 .item-post {
     max-width: 368px;
-    margin-top: -5px;    
+    /* margin-top: -5px;     */
 }
 
 .post-tags {
@@ -403,29 +395,29 @@ body {
 /* Sidebar */
 
 .sidebar {
-    /* display: block; */
+
 }
 
 .sidebar-new {
-    /* margin-top: -12px; */
+
 }
 
 .right-sidebar h3 {
     font-family: Open Sans, Arial, Helvetica, sans-serif;
-    margin-top: -6px;
+    /* margin-top: -6px; */
     font-size: 0.85rem;
-    line-height: 2;
+    line-height: 1;
     font-weight: 700;
     text-align: center;
     text-transform: uppercase;
     position: relative;
-    margin-bottom: 25px;
+    /* margin-bottom: 25px; */
 }
 
 .right-sidebar h3::after {
     display: block;
     content: "";
-    margin: 4px auto;    
+    margin: 10px auto;    
     max-width: 66px;
     height: 3px;
     background-color: #e1d9bd;
@@ -433,7 +425,7 @@ body {
 
 .new-post-list {
     margin-top: 30px;
-    margin-bottom: -10px;
+    /* margin-bottom: -10px; */
 }
 
 .new-post-picture img{   
@@ -451,7 +443,7 @@ body {
     min-width: 200px;
     display: flex;
     flex-direction: column;
-    margin-top: -5px;
+    /* margin-top: -5px; */
     padding-left: 19px;    
 }
 
@@ -464,7 +456,7 @@ body {
 .new-post-info a {
     display: flex;
     font-size: 0.85rem;
-    line-height: 1.5;    
+    line-height: 1;    
     font-weight: bold;
     align-items: flex-start;
 }
@@ -492,7 +484,7 @@ body {
 }
 
 .form-connection {
-    margin-top: 65px;
+    margin-top: 58px;
 }
 
 .hidden {
@@ -548,7 +540,7 @@ body {
     font-weight: 400;
     width: 100%;
     height: 48px;
-    margin-bottom: -5px;
+    /* margin-bottom: -5px; */
     padding-left: 17px;
     padding-right: 15px;
     border: none;
@@ -564,7 +556,7 @@ body {
 }
 
 .form-group button {
-    margin-top: 25px;
+    margin-top: 20px;
     top: 135px;
     right: 0;
     width: 100%;
@@ -585,12 +577,20 @@ body {
 
 /* Теги и темы */
 
+.sector {
+	padding-top: 15px;
+}
+
 .sidebar-tags {
     margin-top: 55px;
 }
 
 .sidebar-tag {
     display: flex;
+}
+
+.tag-list {
+	padding-top: 15px;
 }
 
 .sidebar-tag  li {
@@ -632,7 +632,7 @@ body {
 }
 
 .topics-list {
-    margin-top: -15px;
+    /* margin-top: -15px; */
 }
 
 .topics-list a {
@@ -715,11 +715,13 @@ body {
     z-index: 2;
     border: 3px solid #b59f5b; 
     min-height: 265px; 
-    margin-top: -30px;
+    margin-top: -35px;
     padding-top: 30px;
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 20px;
+
+    margin-right:15px;
 
 }
 
@@ -730,7 +732,7 @@ body {
 }
 
 .products-titles {
-    margin-top: 10px;
+    margin-top: 15px;
     padding-bottom: 5px;
 }
 
@@ -790,6 +792,7 @@ body {
 .button-shop {
     display: flex;
     align-items: flex-end;
+    /* margin-right: 15px; */
 }
 
 .button-shop button {
@@ -832,7 +835,6 @@ footer {
 }
 
 .social-icons {
-    /* width: 100%; */
     padding-top: 20px;
     padding-bottom: 20px;
     margin-left: 5px;
@@ -962,7 +964,6 @@ footer {
     outline-style: solid;
     outline-color: #b59f5b;
     outline-width: 1px;
-    /* box-shadow: 0px 1px rgba(181, 159, 91, 1); */
 }
 
 .popup-select {
@@ -1003,7 +1004,7 @@ footer {
 }
 
 .pupup-radio {
-   
+
 }
 
 .popup-radio-group {
@@ -1011,7 +1012,7 @@ footer {
     margin-bottom: 30px;
 }
 .poput-radio-label {
-   
+
 }
 
 .radio-group-text {
@@ -1032,10 +1033,8 @@ footer {
 	background-repeat: no-repeat;
 	background-position: center  center;
 	background-size: 17px;
-
     display: inline-block;
     vertical-align: middle;
-
     padding-right: 5px;    
 }
 
@@ -1069,7 +1068,6 @@ footer {
     outline-style: solid;
     outline-color: #b59f5b;
     outline-width: 1px; 
-    /* box-shadow: 0px 1px rgba(181, 159, 91, 1); */
 }   
 
 .popup-button {
@@ -1089,7 +1087,7 @@ footer {
     
     background-repeat: no-repeat;
     background-position: center;
-    
+
     font-weight: 700;
     font-size: 14px;
     color: #ffffff;
@@ -1110,7 +1108,6 @@ footer {
     width: 48px;
     height: 48px;
     border: none;
-    /* background: #b59f5b; */
     cursor: pointer;
     background-image: url("../svg/form-x.svg");
     background-repeat: no-repeat;
@@ -1166,10 +1163,14 @@ footer {
 
     /* Баннер */
 
+    .page {
+        margin-top: 45px;
+    }
+
     .header-banner {
     background-image: url("../images/banner-bg-tablet.jpg");
     max-height: 395px;
-    margin-bottom: -20px;
+    /* margin-bottom: -20px; */
     }
 
     .header-banner h1 {
@@ -1189,6 +1190,7 @@ footer {
     .trends-list {
         display: flex;
         flex-wrap: wrap;
+        margin-bottom: 45px;
     }
 
     .trends-list-item {
@@ -1204,7 +1206,8 @@ footer {
     .trends-item {
         margin-right: 20px;
         margin-left: 20px;
-        margin-bottom: 15px;        
+        padding-top: 25px;
+        /* margin-bottom: 15px;         */
     }
 
     .trends-tags {
@@ -1212,20 +1215,15 @@ footer {
         padding-left: 10px; 
         margin-top: 10px;
         margin-bottom: -10px;
-        /* padding-top: 30px; */
+        
     }
     
     .trends-tag {
-        /* margin-right: 20px;
-        font-weight: bold;
-        color: #b59f5b;
-        text-decoration: none;
-        text-transform: uppercase; */
+
     }
     
     .trends-tag:hover {
-        /* text-decoration: underline;
-        text-align: center; */
+
     } 
     
     .trends-titles h2 {
@@ -1233,11 +1231,19 @@ footer {
         padding-bottom: 10px;
     }
 
+    .trends-titles h3 {
+        font-family: Open Sans, Arial, Helvetica, sans-serif;
+        margin-top: 20px;
+        padding-bottom: 10px;
+        font-size: 1rem;
+        line-height: 1.2;
+    }
+
     /* Статьи */
 
     .main {
         display: flex;
-        justify-content: space-evenly;
+        justify-content: space-between;
         padding-right: 35px;
         padding-left: 35px;
         width: 100%;
@@ -1249,16 +1255,18 @@ footer {
     }
 
     .list {
-        /* width: 100%; */
-        /* margin-left: 45px; */
-        margin-top: -20px;
-        /* margin-right: 35px; */
+        /* margin-top: -20px; */
+        margin-right: 35px;
     }
 
     .item-post {
-        /* margin-left: -12px; */
-        margin-top: -8px;
+        /* margin-top: -8px; */
         margin-bottom: 0px;
+        width: 100%;
+        max-width: 1000px;
+    }
+    .item-picture img {
+        max-width: 1000px;
     }
 
     .post-title {
@@ -1266,31 +1274,52 @@ footer {
     }
 
     .post-tags-list {
-        padding-top: 15px;
+        padding-top: 7px;
+    }
+
+    .post-info-about{
+        margin: 30px 0px 25px 0px;
     }
 
     .item-picture img {
-        /* margin-right: 0px; */
         width: 100%;
-        max-width: 392px;
+        max-width: 1000px;
+    }
+
+    .item-picture {
+        width: 100%;
     }
 
     .post-content {
-        margin-top: -18px;
+        /* margin-top: -18px; */
         font-size: 0.90em;
+    }
+
+    .item-post::after {
+        display: block;
+        content: "";
+        margin-top: 20px; 
+        /* margin-right: 15px;    */
+        max-width: 100%;
+        height: 3px;
+        background-color: #e2e1df;
+        margin-bottom: -20px;
+    }
+
+    .list-item {
+        margin-bottom: 60px;
     }
 
 
     /* Sidebar */
 
     .right-sidebar {
-        padding-left: 35px;
+
     }
 
     .sidebar {
         margin-right: 10px;
-        margin-left: 15px;
-        margin-top: -20px;
+        /* margin-top: -20px; */
     }    
 
     /* Форма поиска */
@@ -1306,19 +1335,19 @@ footer {
     /* Рассылка */
 
     .form-connection {
-        margin-top: 65px;
+        margin-top: 55px;
         margin-right: 5px;
     }
 
     .form-connection h3 {
-        margin-top: -7px;
-        margin-left: -10px;
+        margin-top: 60px;
+        /* margin-left: -10px; */
     }
 
     /* Наши изделия */
 
     .products {
-        margin-bottom: -65px;
+        /* margin-bottom: -65px; */
         padding-right: 35px;
         padding-left: 35px;
     }
@@ -1327,18 +1356,18 @@ footer {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
-        /* margin-left: 20px; */
     }
 
     .products-list-item {
-        width: 45%;
+        width: 48%;
         flex: 0 0 auto;
         margin-bottom: 30px;
     }
 
-    /* .products-list-item:nth-child(1n+1) {
-        margin-right: 10px;
-} */
+    .products-list-title {
+        margin-top: 55px;
+        margin-bottom: 25px;
+    }
 
 .products-list-item:nth-child(1n+1) {
     margin-left: 0px;
@@ -1358,18 +1387,36 @@ footer {
     }
 
     .products-item {
+
         margin-top: -40px;
+
+        position: relative;
+        flex-grow: 1;
+        z-index: 2;
+        border: 3px solid #b59f5b;
+        min-height: 265px;
+        /* margin-top: -35px; */
+        padding-top: 30px;
+        padding-left: 20px;
+        /* padding-right: 20px; */
+        padding-bottom: 20px;
+        margin-right:0px;
     }
 
     .products-title {
         font-size: 1.1rem;
-        margin-left: -4px;
+        /* margin-left: -4px; */
     }
 
     /* Footer */
 
+    footer {
+        padding-top: 0px;
+    }
+
     .footer-copyring {
-        margin-top: -25px;
+        /* margin-top: -25px; */
+        padding-top: 40px;
     }
 
 }
@@ -1379,7 +1426,7 @@ footer {
     .trends-list-item {
         display: flex;
         align-items: flex-end;
-        min-height: 320px;
+        /* min-height: 320px; */
         flex-grow: 1;
         width: 100%;
         position: relative;
@@ -1391,11 +1438,11 @@ footer {
     }
 
     .trends-item {
-        margin: 10px;
+        /* margin: 10px; */
     }
 
     .trends-list-item:nth-child(1n+1) {
-        margin-right: 5px;
+        /* margin-right: 5px; */
     }
 
     .trends-list-item:last-child {
@@ -1477,16 +1524,14 @@ footer {
     .header-banner h1 {
         font-size: 1.65rem;
         max-width: 650px;
-        margin-top: -75px;
+        padding-top: 5px;
         line-height: 1.4;
     }
 
     /* Страница */
 
     .page {
-        margin-top: 48px;
-        /* width: 100%;  */
-    
+        margin-top: 48px;    
     }
 
 
@@ -1494,12 +1539,13 @@ footer {
 
     .trends-list-title {
         font-size: 1rem;
+        margin-bottom: 20px;
     }
 
     .trends-list {
     display: flex;
     flex-wrap: wrap;
-    margin-top: -4px;
+    /* margin-top: -4px; */
     }
 
     .trends-list-item {
@@ -1511,7 +1557,7 @@ footer {
     }
 
     .trends-list-item:nth-child(n+1) {
-        /* margin-right: 0px; */
+
     }
 
     .trends-item {
@@ -1525,12 +1571,49 @@ footer {
         font-size: 0.9rem; 
         padding-left: 0px; 
         margin-top: 10px;
-        margin-bottom: -10px;
+        /* margin-bottom: -10px; */
     }
 
     .trends-titles h2 {
         font-size: 1rem;
         padding-bottom: 10px;
+    }
+
+    .trends-list-title::after {
+        display: block;
+        content: "";
+        margin-top: 10px;
+        margin-right: auto;
+        margin-bottom: 13px;
+        margin-left: auto;
+        max-width: 64px;
+        height: 3px;
+        background-color: #e1d9bd;
+    }
+
+    .trends-item {
+        border: 3px solid #b59f5b;
+        z-index: 2;
+        /* margin-top: 10px; */
+        margin-right: 15px;
+        margin-bottom: 15px;
+        margin-left: 15px;
+        padding-top: 15px;
+        padding-right: 10px;
+        padding-bottom: 20px;
+        padding-left: 20px;
+    }
+
+    .trends-titles h3 {
+        font-family: Open Sans, Arial, Helvetica, sans-serif;
+        margin-top: 10px;
+        padding-bottom: 5px;
+        font-size: 1rem;
+        line-height: 1.2;
+    }
+
+    .trends-list {
+        margin-bottom: 40px;
     }
 
 
@@ -1544,29 +1627,30 @@ footer {
     .list-item {
         display: flex;
         flex-wrap: wrap;
+        margin-bottom: 37px;
     }
 
     .list {
-        margin-left: 25px;
-        margin-top: -30px;
-        margin-right: 5px;
+        margin-left: 7px;
+        margin-top: 42px;
+        margin-right: 0px;
     }
 
     .item-post {
-        margin-left: -12px;
-        margin-top: -8px;
+        /* margin-left: -12px;
+        margin-top: -8px; */
         margin-bottom: 0px;
     }
 
     .item-post::after {
         display: block;
         content: "";
-        margin-top: 23px; 
-        margin-right: 15px;   
+        margin-top: 20px;
+        margin-right: 15px;
         max-width: 100%;
         height: 3px;
-        background-color: #e1d9bd;
-        margin-bottom: -20px;
+        background-color: #ebeae6;
+        /* margin-bottom: -20px; */
     }
 
     .post-title {
@@ -1576,35 +1660,49 @@ footer {
 
     .post-titles h2 {
         line-height: 1rem;
-        max-width: 320px;
+        max-width: 1000px;
     }
 
     .post-tags-list {
-        padding-top: 15px;
+        padding-top: 10px;
     }
     
     .item-picture img {
         width: 100%;
-        max-width: 392px;
-        margin-right: 0px;
+        max-width: 1000px;
+    }
+
+    .item-post {
+        max-width: 1000px;
+    }
+
+    .item-picture {
+        width: 100%;
     }
 
     .post-info-about{
+        margin: 30px 0px 18px 0px;
         margin-top: 20px;
-    } 
+    }   
 
     .post-content {
-        margin-top: -30px;
+        /* margin-top: -30px; */
         line-height: 1.2rem;
     }
 
     /* Sidebar */
 
+    .right-sidebar {
+        width: 100%;
+    }
+
     .sidebar {
-        margin-top: 60px;
-        margin-right: 50px;
-        margin-left: 15px;
+        margin-top: 20px;
         min-width: 330px;
+        margin-left:auto;
+        margin-right:auto;
+        padding-left: 5px;
+        padding-right: 5px;
     }    
 
     .sidebar h3 {
@@ -1619,7 +1717,11 @@ footer {
     /* Формы */
 
     .form-connection h3 {
-        margin-top: -27px;
+        /* margin-top: -27px; */
+    }
+
+    .form-connection {
+        margin-top: 50px;
     }
 
     /* Теги */
@@ -1639,6 +1741,9 @@ footer {
         margin-top: 35px;
     }
 
+    .sidebar-topics h3 {
+        margin-top: 40px;
+    }
 
     /* Наши изделия */
 
@@ -1649,36 +1754,42 @@ footer {
 
     .products {
         margin-top: 30px;
-        margin-right: 30px;
+        /* margin-right: 30px;
+        margin-left: 30px; */
     }
 
     .products-list {
         display: flex;
         flex-wrap: wrap;
-        
+        margin-left:auto;
+		margin-right:auto;
     }
 
     .products-list-item {
         width: 100%;
         flex: 0 0 auto;
-        margin-bottom: 50px;
+        margin-bottom: 25px;
     }
 
     .products-list-item:nth-child(1n+1) {
         margin-right: 10px;
+        margin-left: 0px;
 }
 
     .products-list-title {
         font-size: 1rem;
         margin-bottom: 30px;
+        margin-left:auto;
+		margin-right:auto;
 }
 
     .products-item {
-        margin-top: -40px;
+        /* margin-top: -40px; */
         min-height: 220px;
-        /* max-height: 260px; */
-        margin-bottom: -20px;
+        /* margin-bottom: -20px; */
         padding-top: 32px;
+        margin-right:0px;
+        padding-bottom: 0px;
 }
 
 
@@ -1694,15 +1805,23 @@ footer {
  /* Footer */
 
 footer address {
-    margin-top: -48px;
-    margin-bottom: -20px;
+    /* margin-top: -48px;
+    margin-bottom: -20px; */
+}
+
+footer {
+    padding-top: 25px;
+}
+
+.footer-copyring {
+    padding-top: 40px;
 }
 
 .popup-form-block {
     margin-left: 14px;
     margin-right: 20px;
     min-height: 545px;
-    margin-top: 25px;
+    margin-top: 180px;
 }
 .popup-title {
     font-size: 1rem;
@@ -1747,7 +1866,6 @@ footer address {
     width: 27px;
     height: 27px;
     border: none;
-    /* background: #b59f5b; */
     cursor: pointer;
     background-image: url("../svg/form-x.svg");
     background-repeat: no-repeat;
@@ -1765,7 +1883,7 @@ footer address {
     }
 
     .trends-list-item:nth-child(2n) {
-        /* margin-right: 0px; */
+
     }
 
     .trends-list-item:last-child {
